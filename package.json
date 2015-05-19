@@ -1,0 +1,25 @@
+{
+  "name": "auto-tagger",
+  "version": "1.0.1",
+  "description": "JavaScript text auto tagger",
+  "main": "autoTagger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eberlitz/autoTagger.git"
+  },
+  "author": "Eduardo Eidelwein Berlitz <eberlitz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eberlitz/autoTagger/issues"
+  },
+  "homepage": "https://github.com/eberlitz/autoTagger",
+  "keywords": [
+    "autotagger",
+    "auto",
+    "tagger",
+    "text"
+  ]
+}
