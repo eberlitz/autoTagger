@@ -1,7 +1,7 @@
 {
   "name": "auto-tagger",
-  "version": "1.0.2",
-  "description": "JavaScript text auto tagger",
+  "version": "1.0.3",
+  "description": "Simple text auto tagger in JavaScript",
   "main": "autoTagger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
