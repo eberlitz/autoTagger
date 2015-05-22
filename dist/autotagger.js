@@ -1,3 +1,9 @@
+/**
+ * auto-tagger - Simple text auto tagger in JavaScript
+ * @version v1.0.4
+ * @link https://github.com/eberlitz/autoTagger
+ * @license MIT
+ */
 (function(global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
         typeof define === 'function' && define.amd ? define(factory) :

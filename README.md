@@ -40,7 +40,25 @@ var tags = autoTagger
 // extract tags from text
 // return tags that have at least 2 ocurrences
 // and look for ocurrences of 4 consecutive words 
-.fromText(testText,2,4);
+.fromText(testText,2,4)
 
+// Format the output
+.map(function(w){return w.word + ':'+ w.count}).join('\r\n');
+
+/*
+ * print results to the console:
+ * "bayesian:5
+ * bayesian inference:3
+ * inference:3
+ * techniques:3
+ * techniques since:2
+ * applications:2
+ * since:2
+ * models:2
+ * allow:2"
+ *
+ */
 console.log(tags);
+
+
 ```
