@@ -28,8 +28,8 @@ var testText = "This text is from a Wikipedia entry about Bayes' Theorem. Bayesi
 
 var tags = autoTagger
 
-// using portuguese stop words
-.useStopWords('pt')
+// using portuguese Brasil stop words
+.useStopWords('pt-br')
 
 // using english stop words
 .useStopWords('en')

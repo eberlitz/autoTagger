@@ -1,6 +1,6 @@
 {
   "name": "auto-tagger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple text auto tagger in JavaScript",
   "main": "autoTagger.js",
   "scripts": {
@@ -20,12 +20,20 @@
     "autotagger",
     "auto",
     "tagger",
-    "text"
+    "text",
+    "tag"
   ],
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
     "gulp-header": "^1.2.2",
     "gulp-uglify": "^1.2.0"
-  }
+  },
+  "contributors": [
+    {
+      "name": "Julio Goldschmidt",
+      "email": "julio.gold@gmail.com",
+      "url": "https://github.com/JulioGold"
+    }
+  ]
 }
