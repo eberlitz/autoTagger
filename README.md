@@ -7,13 +7,17 @@ Simple JavaScript text auto tagger
 
 Include the javascript in the browser:
 
+
 ```html
-<script type="text/javascript" src="https://cdn.rawgit.com/eberlitz/autoTagger/master/autoTagger.js"></script>
+<!-- recommended -->
+<script type="text/javascript" src="autotagger.min.js"></script>
+<!-- Using cdn (Depends on rawgit) -->
+<script type="text/javascript" src="https://cdn.rawgit.com/eberlitz/autoTagger/master/dist/autotagger.min.js"></script>
 ```
 
 or use it in Node.js:
 
-```
+```js
 $> npm install auto-tagger
 ```
 
